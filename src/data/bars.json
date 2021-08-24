@@ -1,0 +1,215 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ravintola Fox"
+      },
+      "geometry": {
+        "coordinates": [
+          22.32475,
+          60.459361
+        ],
+        "type": "Point"
+      },
+      "id": "0c0f2b2bb2c23c4eaf69e7cffcde15c7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wanha Rahtilaiva"
+      },
+      "geometry": {
+        "coordinates": [
+          22.248124,
+          60.440719
+        ],
+        "type": "Point"
+      },
+      "id": "2063868f2caa91bedb8c385d8ac45fdb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Humm Pub"
+      },
+      "geometry": {
+        "coordinates": [
+          22.257538,
+          60.451579
+        ],
+        "type": "Point"
+      },
+      "id": "4a26b649b8357bf1b9cd400ef5568bdb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hannikaisen Olutravintola"
+      },
+      "geometry": {
+        "coordinates": [
+          22.253295,
+          60.446264
+        ],
+        "type": "Point"
+      },
+      "id": "52bf223433cb2a22cd1f6b23d74f5237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pulina Pub"
+      },
+      "geometry": {
+        "coordinates": [
+          22.278868,
+          60.469524
+        ],
+        "type": "Point"
+      },
+      "id": "531fd063f9955c7a3468e8f32841ea3d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bar Bristol"
+      },
+      "geometry": {
+        "coordinates": [
+          22.278488,
+          60.45047
+        ],
+        "type": "Point"
+      },
+      "id": "5799e5867872634d40f6e100226aad25"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bar SuXes"
+      },
+      "geometry": {
+        "coordinates": [
+          22.270708,
+          60.454004
+        ],
+        "type": "Point"
+      },
+      "id": "65118dd9f56858aac3ddeb9591493601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Masan Baari"
+      },
+      "geometry": {
+        "coordinates": [
+          22.267641,
+          60.460636
+        ],
+        "type": "Point"
+      },
+      "id": "7691834b0d7c2dc1972a959f103d08bb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Runostuoppi"
+      },
+      "geometry": {
+        "coordinates": [
+          22.261037,
+          60.489134
+        ],
+        "type": "Point"
+      },
+      "id": "8c920d42c39989021163f37127eff43a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ravintola Satama"
+      },
+      "geometry": {
+        "coordinates": [
+          22.266862,
+          60.489669
+        ],
+        "type": "Point"
+      },
+      "id": "b730e5346b8edc711371ddca83832f28"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basso"
+      },
+      "geometry": {
+        "coordinates": [
+          22.359315,
+          60.44282
+        ],
+        "type": "Point"
+      },
+      "id": "bace1ccdb3d9d9749136554d6a900b0d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vanha Varis"
+      },
+      "geometry": {
+        "coordinates": [
+          22.359747,
+          60.442968
+        ],
+        "type": "Point"
+      },
+      "id": "bf9be9d91d7bca72d0eaeaf8ed3af1cf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bambu Garden"
+      },
+      "geometry": {
+        "coordinates": [
+          22.271167,
+          60.457744
+        ],
+        "type": "Point"
+      },
+      "id": "c0b21e6b197fba434691f83ab3776779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kerttulin Kievari"
+      },
+      "geometry": {
+        "coordinates": [
+          22.282439,
+          60.449357
+        ],
+        "type": "Point"
+      },
+      "id": "ce2da75ef785d6fe8d67c21ee6d1c48c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surutoin"
+      },
+      "geometry": {
+        "coordinates": [
+          22.275589,
+          60.444792
+        ],
+        "type": "Point"
+      },
+      "id": "e1db5759bd266db31e74886ce13de397"
+    }
+  ],
+  "type": "FeatureCollection"
+}

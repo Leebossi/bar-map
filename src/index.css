@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h2 {
+  color: magenta;
+}
+
+.marker-btn {
+  background: black;
+  border: 2px solid red;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.marker-btn p {
+  position: absolute;
+  font-size: 22px;
+  top: -21px;
+  right: 3px;
+}
