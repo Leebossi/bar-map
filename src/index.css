@@ -5,9 +5,7 @@ html::after {
   --grey-secondary: #1A1C21;
   --grey-light: #65666E;
   --grey-accent: #2B2C32;
-  --white: #EEEEEE;
   --blue-light: #61dafb;
-  --red-light: #F64E34;
   --speed: 500ms;
   --nav-size: 50px;
   --border-radius: 8px;
@@ -93,7 +91,8 @@ a {
 }
 
 .icon-btn:hover {
-  filter: brightness(1.2)
+  filter: brightness(1.2);
+  cursor: pointer;
 }
 
 .dropdown {
@@ -124,6 +123,7 @@ a {
 }
 
 .menu-item {
+  cursor: pointer;
   height: 50px;
   color: var(--blue-light);
   display: flex;

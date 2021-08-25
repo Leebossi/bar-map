@@ -33,6 +33,7 @@ const Map = ({ viewport, setViewport, selectedBar, setSelectedBar }) => {
         <Popup
           latitude={selectedBar.geometry.coordinates[1]}
           longitude={selectedBar.geometry.coordinates[0]}
+          className="popup"
           onClose={() => {
             setSelectedBar(null)
           }}

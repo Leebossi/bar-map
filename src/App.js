@@ -8,10 +8,10 @@ import { CSSTransition } from 'react-transition-group'
 const App = () => {
   const [viewport, setViewport] = useState({
     width: '100vw',
-    height: '100vh',
+    height: 'calc(100vh - 50px)',
     latitude: 60.45175,
     longitude: 22.267052,
-    zoom: 12
+    zoom: 12,
   })
   const [selectedBar, setSelectedBar] = useState(null)
   const [open, setOpen] = useState(false)
@@ -21,7 +21,7 @@ const App = () => {
       <Navbar>
         <NavItem icon="🍻" open={open} setOpen={setOpen}>
           <CSSTransition timeout={500}>
-              <DropDownMenu />
+              <DropDownMenu setSelectedBar={setSelectedBar} setViewport={setViewport}/>
           </CSSTransition>
         </NavItem>
       </Navbar>
