@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
-    <h2>Eeppinen musuiluappro</h2>
+    <nav className="navbar">
+      <h2>Eeppinen musuiluappro</h2>
+      <ul className="navbar-nav">{props.children}</ul>
+    </nav>
   )
 }
 
