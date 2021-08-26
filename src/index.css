@@ -54,7 +54,8 @@ a {
   align-items: center;
 }
 
-.navbar h2 {
+.navbar h3 {
+  color: var(--blue-light);
   margin: 0;
   width: 100vw;
   text-transform: uppercase;
@@ -88,11 +89,21 @@ a {
   align-items: center;
   justify-content: center;
   transition: filter 300ms;
+  display: flex;
+  flex-direction: column;
 }
 
 .icon-btn:hover {
   filter: brightness(1.2);
   cursor: pointer;
+}
+
+.line {
+  background: var(--blue-light);
+  border-radius: 2px;
+  width: 20px;
+  height: 3px;
+  margin: 2px;
 }
 
 .dropdown {
