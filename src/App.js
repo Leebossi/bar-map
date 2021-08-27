@@ -21,7 +21,7 @@ const App = () => {
       <Navbar>
         <NavItem icon="🍻" open={open} setOpen={setOpen}>
           <CSSTransition timeout={500}>
-              <DropDownMenu setSelectedBar={setSelectedBar} setViewport={setViewport}/>
+              <DropDownMenu setSelectedBar={setSelectedBar} setViewport={setViewport} open={open} setOpen={setOpen}/>
           </CSSTransition>
         </NavItem>
       </Navbar>

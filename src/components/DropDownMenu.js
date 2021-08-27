@@ -11,6 +11,7 @@ const DropDownMenu = (props) => {
       zoom: 14
     })
     props.setSelectedBar(bar)
+    props.setOpen(!props.open)
   }
 
   return (
