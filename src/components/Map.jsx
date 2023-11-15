@@ -7,7 +7,7 @@ const Map = ({ viewport, setViewport, selectedBar, setSelectedBar }) => {
   return (
     <ReactMapGL
       {...viewport}
-      mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+      mapboxApiAccessToken={import.meta.env.VITE_APP_MAPBOX_TOKEN}
       mapStyle={'mapbox://styles/sir-oswald/cksq7h9020wm117pg8tu8bd5i'}
       onViewportChange={viewport => setViewport(viewport)}
     >
